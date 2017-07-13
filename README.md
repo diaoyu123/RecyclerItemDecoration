@@ -3,10 +3,10 @@
 RecyclerViewItemDecoration is an Android library that allows developers to easily create RecyclerView with ItemDecoration.
 Besides, the library will have new ItemDecoration added constantly.
 
-![](https://github.com/dinuscxj/RecyclerItemDecoration/blob/master/Preview/PinnedHeaderItemDecoration.gif?width=300)
-![](https://github.com/dinuscxj/RecyclerItemDecoration/blob/master/Preview/ShaderItemDecoration.gif?width=300)<br/>
-![](https://github.com/dinuscxj/RecyclerItemDecoration/blob/master/Preview/LinearDividerItemDecoration.gif?width=300)
-![](https://github.com/dinuscxj/RecyclerItemDecoration/blob/master/Preview/GridOffsetsItemDecoration.gif?width=300)
+![](https://github.com/diaoyu123/RecyclerItemDecoration/blob/master/Preview/PinnedHeaderItemDecoration.gif?width=300)
+![](https://github.com/diaoyu123/RecyclerItemDecoration/blob/master/Preview/ShaderItemDecoration.gif?width=300)<br/>
+![](https://github.com/diaoyu123/RecyclerItemDecoration/blob/master/Preview/LinearDividerItemDecoration.gif?width=300)
+![](https://github.com/diaoyu123/RecyclerItemDecoration/blob/master/Preview/GridOffsetsItemDecoration.gif?width=300)
 
 ## Features
  * Support custom top shader or bottom shader to the RecyclerView.
@@ -14,11 +14,23 @@ Besides, the library will have new ItemDecoration added constantly.
  * Support custom different Divider or Offsets , when using RecyclerView with different ViewType.
 
 ## Usage
- Add dependency
+ 
+ Add it in your root build.gradle at the end of repositories:
+ 
+```gradle
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+ 
+ 
  ```gradle
- dependencies {
-    compile 'com.dinuscxj:recycleritemdecoration:1.0.0'
- }
+dependencies {
+    compile 'com.github.diaoyu123:RecyclerItemDecoration:1.0'
+}
  ```
 
  Set HeaderItemDecoration
