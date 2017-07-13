@@ -15,7 +15,7 @@ Besides, the library will have new ItemDecoration added constantly.
 
 ## Usage
  
- Add it in your root build.gradle at the end of repositories:
+Add it in your root build.gradle at the end of repositories:
  
 ```gradle
 allprojects {
@@ -26,8 +26,10 @@ allprojects {
 }
 ```
  
- 
- ```gradle
+
+Add the dependency
+
+```gradle
 dependencies {
     compile 'com.github.diaoyu123:RecyclerItemDecoration:1.0'
 }
